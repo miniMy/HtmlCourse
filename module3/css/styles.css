@@ -58,7 +58,7 @@ width: 100%;
  
 background-color: blue;
 border: 1px solid pink;
-margin: 10px 45px 10px;
+
 }
 .title{
 color: white;
@@ -71,12 +71,12 @@ color: white;
 /* END CONTAINER   */
 
 
-/********** Small, medium and large devices**********/
-@media (min-width: 768px)  {
+/********** larger devices only **********/
+@media (min-width: 768px) {
+
   .nav>li {
   visibility: hidden;
-}
- 
+  } 
 }
 
 /********** Extra small devices only **********/
@@ -99,4 +99,5 @@ color: white;
   }
  
   /* End Header */
+
 }
